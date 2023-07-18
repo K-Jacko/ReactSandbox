@@ -6,22 +6,22 @@ const imgHolder = '#MISSING IMAGE#'
 const Book1 = {
     img: '/sum.jpg',
     title: 'Stella Maris',
-    author: 'Cormac McCarthy'
+    author: 'Cormac McCarthy'.toUpperCase()
 }
 const Book2 = {
-    img: '/sg.jpg',
-    title: 'So Good They Cant Ignore You',
-    author: 'Cal Newport'
+    img: '/tp.jpg',
+    title: 'The Passenger',
+    author: 'Cormac McCarthy'.toUpperCase()
 }
 const Book3 = {
     img: '/dw.jpg',
     title: 'Deep Work',
-    author: 'Cal Newport'
+    author: 'Cal Newport'.toUpperCase()
 }
 const Book4 = {
-    img: '/tp.jpg',
-    title: 'The Passenger',
-    author: 'Cal Newport'
+    img: '/sg.jpg',
+    title: 'So Good They Cant Ignore You',
+    author: 'Cal Newport'.toUpperCase()
 }
 const Book = (props) =>
 {
@@ -37,7 +37,7 @@ function BookList()
 {
     return(
         <section className='bookList'>
-            <Book author={Book1.author} img={Book1.img} title={Book1.title} />
+            <Book author={Book1.author} img={Book1.img} title={Book1.title}/>
             <Book author={Book2.author} img={Book2.img} title={Book2.title}/>
             <Book author={Book3.author} img={Book3.img} title={Book3.title}/>
             <Book author={Book4.author} img={Book4.img} title={Book4.title}/>
