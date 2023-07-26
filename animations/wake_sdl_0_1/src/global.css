@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'pix';
+    src:local('Pix'),
+    url(public/fonts/Pixeboy-z8XGD.ttf) format('truetype');
+}
