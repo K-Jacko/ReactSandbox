@@ -1,1 +1,21 @@
-/node_modules/
+# dependencies
+GridTest/grid-test/node_modules
+GridTest/grid-test/.pnp
+GridTest/grid-test/.pnp.js
+
+# testing
+GridTest/grid-test/coverage
+
+# production
+GridTest/grid-test/build
+
+# misc
+GridTest/grid-test/.DS_Store
+GridTest/grid-test/.env.local
+GridTest/grid-test/.env.development.local
+GridTest/grid-test/.env.test.local
+GridTest/grid-test/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
