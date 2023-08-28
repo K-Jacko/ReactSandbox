@@ -217,5 +217,12 @@ export default makeScene2D(function* (view) {
       blockRects[2].position.y(0 + 250,2),
       blockRects[3].position.y(500 + 250,2),
   );
+  yield* all(
+      blockRects[0].opacity(0,2.5),
+      blockRects[1].opacity(0,2.5),
+      blockRects[2].opacity(0,2.5),
+      blockRects[3].opacity(0,2.5),
+  );
+
 
 });
